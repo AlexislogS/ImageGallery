@@ -17,7 +17,6 @@
 		EA5C75BE247D8FE200CBB228 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75BD247D8FE100CBB228 /* ImageGallery.swift */; };
 		EA5C75C0247D8FFD00CBB228 /* GarbageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75BF247D8FFD00CBB228 /* GarbageView.swift */; };
 		EA5C75C3247D900A00CBB228 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75C1247D900A00CBB228 /* ImageCollectionViewCell.swift */; };
-		EA5C75C4247D900A00CBB228 /* GalleryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75C2247D900A00CBB228 /* GalleryTableViewCell.swift */; };
 		EA5C75C7247D902A00CBB228 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75C5247D902A00CBB228 /* ImageViewController.swift */; };
 		EA5C75C8247D902A00CBB228 /* ImageGalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75C6247D902A00CBB228 /* ImageGalleryCollectionViewController.swift */; };
 		EA5C75CA247D903800CBB228 /* Utilitiy Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5C75C9247D903800CBB228 /* Utilitiy Extension.swift */; };
@@ -36,7 +35,6 @@
 		EA5C75BD247D8FE100CBB228 /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGallery.swift; sourceTree = "<group>"; };
 		EA5C75BF247D8FFD00CBB228 /* GarbageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GarbageView.swift; sourceTree = "<group>"; };
 		EA5C75C1247D900A00CBB228 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
-		EA5C75C2247D900A00CBB228 /* GalleryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryTableViewCell.swift; sourceTree = "<group>"; };
 		EA5C75C5247D902A00CBB228 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		EA5C75C6247D902A00CBB228 /* ImageGalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryCollectionViewController.swift; sourceTree = "<group>"; };
 		EA5C75C9247D903800CBB228 /* Utilitiy Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utilitiy Extension.swift"; sourceTree = "<group>"; };
@@ -114,21 +112,12 @@
 		EA5C75CB247D905400CBB228 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EA5C75CC247D906F00CBB228 /* Cells */,
+				EA5C75C1247D900A00CBB228 /* ImageCollectionViewCell.swift */,
 				EA5C75BF247D8FFD00CBB228 /* GarbageView.swift */,
 				EA5C75AA247D881900CBB228 /* Main.storyboard */,
 				EA5C75AF247D881C00CBB228 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		EA5C75CC247D906F00CBB228 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				EA5C75C1247D900A00CBB228 /* ImageCollectionViewCell.swift */,
-				EA5C75C2247D900A00CBB228 /* GalleryTableViewCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +191,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA5C75C4247D900A00CBB228 /* GalleryTableViewCell.swift in Sources */,
 				EA5C75C7247D902A00CBB228 /* ImageViewController.swift in Sources */,
 				EA5C75A9247D881900CBB228 /* ImageGalleryDocument.swift in Sources */,
 				EA5C75CA247D903800CBB228 /* Utilitiy Extension.swift in Sources */,
